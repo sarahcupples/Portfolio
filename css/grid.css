@@ -83,7 +83,7 @@ nav.black {
 }
 
 nav ul {
-    font-family: 'Termina', sans-serif;
+    font-family: 'Termina', 'Helvetica', sans-serif;
     list-style:none;
     float: right;
     margin:0;
@@ -155,7 +155,7 @@ ul {
 }
 
 h3{
-   font-family: 'Termina', sans-serif;
+    font-family: 'Termina', 'Helvetica', sans-serif;
     color: #F05D5D;
     font-size: 1em;
     padding-bottom: 0.1em;
@@ -163,14 +163,14 @@ h3{
 
 h2 {
     
-       font-family: 'Termina', sans-serif;
+       font-family: 'Termina', 'Helvetica', sans-serif;
         padding-bottom: 0.5em;
 
 }
 
 p {
     
-       font-family: 'Termina', sans-serif;
+    font-family: 'Termina', 'Helvetica', sans-serif;
     line-height: 1.7em;
     
 }
@@ -449,6 +449,10 @@ p {
     background-color: #F1D16D;
 }
 
+.brandi {
+    text-decoration: none;
+}
+
 .travelapp3 {
     width:90%;
     padding-left:13%;
@@ -554,6 +558,195 @@ p {
     opacity: 0.9;
 }
 
+
+
+
+
+
+  
+    
+    
+    @media (max-width: 50em) {
+    
+    .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        ". monogram monogram monogram navbar navbar navbar navbar navbar navbar navbar navbar"
+        
+        "landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic"
+        
+        ". aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme ."
+        
+        ". aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic ."
+        
+        "whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle"
+        
+        ". whatill whatill whatill whatill whatill whatill whatill whatill whatill whatill ."
+        
+        ". desill desill desill desill desill desill desill desill desill desill ."
+        
+        ". freeill freeill freeill freeill freeill freeill freeill freeill freeill freeill ."
+        
+        "worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle"
+        
+        "travelwork travelwork travelwork travelwork travelwork . travelinfo travelinfo travelinfo travelinfo travelinfo  travelinfo"
+        
+        "infogtext infogtext infogtext infogtext infogtext infogtext . infogr infogr infogr infogr  infogr"
+        
+        "branding branding branding branding branding . brandtext brandtext brandtext brandtext  brandtext brandtext"
+        
+        "need need need need need need need need need need need need"
+        
+        "letter letter letter letter letter letter contact contact contact contact contact ."
+        
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+} 
+        
+         .svg {
+    width:10.5%;
+    padding-top:2.5%;
+    padding-left:3%;
+}
+    
+        nav ul li a {
+    padding-left: 0.2em;
+    font-size: 1.1em;
+}
+        
+          .landingpic {
+    width:95%;
+    padding-top: 12%;
+    padding-left: 2.2%;
+}
+        
+            .aboutme {
+    padding-top: 15%;
+                text-align: center;
+}
+        
+        .aboutpink {
+        text-align: center;
+    }
+
+
+.break{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+        
+         .aboutpic {
+    padding-top: 10%;
+    width:55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+        
+        .whatido {
+    
+    text-align: center;
+    padding-bottom: 2.5%; 
+    padding-top:12%;
+}
+        
+        .break2 {
+    width:28%;
+}
+    
+
+.willustration {
+    
+    width:20%;
+    padding-top: 15%;
+}
+        
+        .whatinfo {
+    
+    text-align:center;
+    padding-top: 4.5%;
+   padding-bottom: 15%;
+    font-size: 1.15em;
+   padding-right: 7%;
+    padding-left: 7%;
+
+}
+        
+        .whattext {
+    text-align: center;
+    color: #000;
+    font-size: 1.18em;
+    padding-top:10%;
+}
+        
+        
+        .freelance {
+    
+    width:30%;
+    padding-top: 9%;
+}
+        
+        .design {
+    
+    width:23%;
+    padding-top: 9%;
+}
+        
+        .worktitle2 {
+    padding-top: 8%;
+    padding-bottom: 1%;
+    
+}
+        
+        .travelapp {
+    
+    width:92%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:35%;
+    padding-left: 15%;
+}
+        
+        .travelapp2 {
+    
+    width:92%;
+    padding-left: 0;
+    padding-top: 42%;
+}
+        
+        .travelapp3 {
+    width:92%;
+    padding-left:15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35%;
+}
+     
+        
+           .tumblr {
+    width:12%;
+    padding-bottom: 4%;
+    padding-top: 7%;
+    padding-left: 7%;
+}
+ 
+   .tumblr:hover {
+    width: 12.5%;
+} 
+        
+           .footer {
+    padding-left:27%;
+}
+    
+    
+    
+    
+}
 
 
 
@@ -707,7 +900,7 @@ p {
 .whattext {
     text-align: center;
     color: #000;
-    padding-top:15%;
+    padding-top:10%;
 }
 
 
@@ -715,8 +908,8 @@ p {
     
     text-align:center;
     padding-top: 10%;
-   padding-bottom: 35%;
-      /*font-size: .8em;*/
+   padding-bottom: 20%;
+    font-size: .8em;
    padding-right: 7%;
     padding-left: 7%;
 
@@ -728,7 +921,7 @@ p {
 
 .break3 {
     width:24%;
-    margin-bottom:10%;
+    margin-bottom:0;
 }
 
 
@@ -766,7 +959,7 @@ p {
     color:#ffffff;
     padding-top: 10%;
     padding-left: 10%;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 .myth2{
@@ -774,6 +967,7 @@ p {
     padding-top: 2%;
         padding-left: 10%;
     padding-right: 10%;
+    font-size: 0.85em
 
 }
 
@@ -781,6 +975,8 @@ p {
     color:#F9EAE4;
     padding-top: 2%;
         padding-left: 10%;
+        font-size: 0.85em
+
 
 }
 
@@ -789,6 +985,8 @@ p {
     color:#F9EAE4;
     padding-top: 1%;
         padding-left: 10%;
+        font-size: 0.85em
+
 
 }
 
@@ -797,6 +995,8 @@ p {
     color:#F9EAE4;
     padding-top: 1%;
     padding-left: 10%;
+        font-size: 0.85em
+
 
 }
     
@@ -819,6 +1019,8 @@ p {
     padding-right: 1%;
     padding-left: 1%;
         line-height: 1.5em;
+    font-size: 0.85em
+
 }
 
 .helpbr {
@@ -846,25 +1048,5 @@ p {
 }
     
     
+    }   
     
-    
-    
-    
-    
- 
-
-
-    
-
-    
-    
-    
-    
- 
-    
-    
-    
-    
-    
-    
-}
