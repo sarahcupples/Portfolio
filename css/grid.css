@@ -857,7 +857,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
 
-        ". . aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme . ."
+        ". aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme ."
         
         ". aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic ."
         
