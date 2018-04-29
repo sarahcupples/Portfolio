@@ -1,0 +1,863 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        ". monogram monogram monogram navbar navbar navbar navbar navbar navbar navbar navbar"
+        
+        "landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic"
+        
+        ". . aboutme aboutme aboutme . aboutpic aboutpic aboutpic aboutpic aboutpic ."
+        
+        "whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle"
+        
+        ". . whatill whatill . desill desill . freeill freeill . ."
+        
+        "worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle"
+        
+        "travelwork travelwork travelwork travelwork travelwork . travelinfo travelinfo travelinfo travelinfo travelinfo  travelinfo"
+        
+        "infogtext infogtext infogtext infogtext infogtext infogtext . infogr infogr infogr infogr  infogr"
+        
+        "branding branding branding branding branding . brandtext brandtext brandtext brandtext  brandtext brandtext"
+        
+        "need need need need need need need need need need need need"
+        
+        ". letter letter letter letter letter contact contact contact contact . ."
+        
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.monogram {
+    grid-area: monogram;    
+}
+
+.mono {
+   width:7%;
+   padding-top:1.1%;
+   padding-left: 5%;
+}
+
+
+#Layer_1:hover {
+    fill:white;
+    stroke: white;
+    opacity: 1;
+}
+
+.svg {
+    width:6%;
+    padding-top:1.1%;
+    padding-left: 2%;
+    opacity: 0.8;
+    -webkit-transition: opacity .7s ease-in-out;
+    transition: opacity .4s ease-in-out;
+}
+
+
+
+.navbar {
+    grid-area: navbar;
+
+}
+
+nav {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 6em;
+    box-sizing:border-box;
+    transition: .3s;
+}
+
+nav.black {
+    background: rgba(0,0,0,0.8);
+    height: 5em;
+    /*padding: 1px 6em;*/
+}
+
+nav ul {
+    font-family: 'Termina', sans-serif;
+    list-style:none;
+    float: right;
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 5em;
+    color: #151515;
+    padding: 1em 1.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+nav.black ul li a {
+    color: #fff;
+}
+
+nav ul li a: focus {
+    outline: none;
+}
+
+
+li {
+    display: inline;
+    
+}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navhover:hover {
+    color:#F05D5D;
+}
+
+
+
+
+
+
+.landingpic {
+    grid-area: landingpic;
+}
+
+.landingpic {
+    width:85%;
+    padding-top: 4.5%;
+    padding-left: 7%;
+}
+
+
+
+
+
+
+
+.aboutme {
+    grid-area: aboutme;
+    padding-top: 58%;
+}
+
+h3{
+   font-family: 'Termina', sans-serif;
+    color: #F05D5D;
+    font-size: 1em;
+    padding-bottom: 0.1em;
+}
+
+h2 {
+    
+       font-family: 'Termina', sans-serif;
+        padding-bottom: 0.5em;
+
+}
+
+p {
+    
+       font-family: 'Termina', sans-serif;
+    line-height: 1.7em;
+    
+}
+
+
+.break{
+    width: 52%;
+}
+
+
+
+
+
+
+
+.aboutpic {
+    grid-area: aboutpic;
+    padding-top: 35%;
+}
+
+.aboutill {
+    
+    width:75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abouttext {
+    padding-top: 2%;
+}
+
+
+
+
+
+
+
+.whattitle {
+    
+    grid-area: whattitle; 
+    padding-top: 1.5%;
+    padding-top: 7%;
+}
+
+.break2 {
+    width:13%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whatido {
+    
+    text-align: center;
+    padding-bottom: 1%; 
+}
+
+
+.whatill {
+    grid-area: whatill; 
+}
+
+.willustration {
+    
+    width:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 41%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.desill {
+    grid-area: desill; 
+
+}
+
+.design {
+    
+    width:25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35%;
+}
+
+.workarea {
+    font-size: .65em;
+}
+
+
+
+
+
+
+
+
+.freeill {
+    grid-area: freeill;
+
+}
+
+.freelance {
+    
+    width:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 38%;
+}
+
+
+
+
+.whattext {
+    text-align: center;
+    color: #000;
+    padding-top: 22%;
+}
+
+
+.whatinfo {
+    
+    text-align:center;
+    padding-top: 12%;
+   padding-bottom: 75%;
+      /*font-size: .8em;*/
+   padding-right: 7%;
+    padding-left: 7%;
+
+}
+
+
+
+
+
+.worktitle {
+    grid-area: worktitle;
+}
+
+.break3 {
+    width:13%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5%;
+}
+
+
+.worktitle2 {
+    
+    text-align: center;
+    padding-bottom: 1%;
+    
+}
+
+
+
+
+.travelwork {
+    grid-area: travelwork;
+}
+
+
+.travelapp {
+    
+    width:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:7.5%;
+    padding-left: 13%;
+}
+
+.travelapp2 {
+    
+    width:90%;
+    padding-right: 500%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7.5%;
+}
+
+
+.travelinfo {
+    grid-area: travelinfo;
+    background-color: #F05D5D;
+    height: 25em;
+}
+
+
+.myth1{
+    color:#ffffff;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.myth2{
+    color:#ffffff;
+    padding-top: 2%;
+        padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.myth3{
+    color:#F9EAE4;
+    padding-top: 2%;
+        padding-left: 10%;
+
+}
+
+
+.myth4{
+    color:#F9EAE4;
+    padding-top: 1%;
+        padding-left: 10%;
+
+}
+
+
+.myth5{
+    color:#F9EAE4;
+    padding-top: 1%;
+        padding-left: 10%;
+
+}
+
+
+
+
+
+
+.infogr {
+    grid-area: infogr;
+}
+
+
+
+
+.infogtext {
+    grid-area: infogtext;
+    background-color: #29B5BE;
+}
+
+.mythdata {
+    color:#F9EAE4;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-bottom:9%;
+}
+
+
+
+
+
+
+
+.branding {
+    grid-area: branding;
+}
+
+
+.brandtext {
+    grid-area: brandtext;
+    background-color: #F1D16D;
+}
+
+.travelapp3 {
+    width:90%;
+    padding-left:13%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6.5%;
+}
+
+.mythbrand {
+    color:#F9EAE4;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-bottom:9%;  
+}
+
+
+
+
+.need {
+    grid-area: need;
+}
+
+
+.help {
+    text-align: center;
+    padding-top: 9%;
+}
+
+
+
+
+
+
+
+.contact {
+    grid-area: contact;
+    text-align: center;
+    float:left;
+    padding-top: 30%;
+    padding-right: 15%;
+    padding-left: 1%;
+}
+
+.helpbr {
+    
+    width:22.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+.letter {
+    grid-area: letter;
+}
+
+.letterill {
+    padding-top: 10%;
+    padding-right: 5%;
+    float:right;
+    padding-bottom: 0;
+    width:48%;
+}
+
+
+
+
+.footer {
+    grid-area: footer;
+    background-color: #231F20;
+    padding-left:35%;
+}
+
+
+
+/*.find {
+    text-align: center;
+}*/
+
+.socialbuttons a img {
+    opacity: 0.25;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+.tumblr {
+    width:5.5%;
+    padding-bottom: 3%;
+    padding-top: 4%;
+    padding-left: 7.5%;
+    opacity: 0.25;
+    -webkit-transition: opacity .6s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+
+.tumblr:hover {
+    fill:white;
+    width: 5.6%;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 414px) {
+    
+    .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        ". monogram monogram navbar navbar navbar navbar navbar navbar navbar navbar navbar"
+        
+        "landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic landingpic"
+        
+        ". aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme ."
+        
+        ". aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic ."
+        
+        "whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle"
+        
+        ". whatill whatill whatill whatill whatill whatill whatill whatill whatill whatill ."
+        
+        ". desill desill desill desill desill desill desill desill desill desill ."
+        
+        ". freeill freeill freeill freeill freeill freeill freeill freeill freeill freeill ."
+        
+        "worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle"
+        
+        "travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork"
+        
+        "travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo  travelinfo"
+        
+        "infogr infogr infogr infogr infogr infogr infogr infogr infogr infogr infogr  infogr"
+        
+        "infogtext infogtext infogtext infogtext infogtext infogtext infogtext infogtext infogtext infogtext infogtext  infogtext"
+        
+        "branding branding branding branding branding branding branding branding branding branding  branding branding"
+        
+        "brandtext brandtext brandtext brandtext brandtext brandtext brandtext brandtext brandtext brandtext  brandtext brandtext"
+        
+        "need need need need need need need need need need need need"
+        
+        ". contact contact contact contact contact contact contact contact contact contact ."
+        
+        ". . letter letter letter letter letter letter . . . ."
+        
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+ 
+    .svg {
+    width:10.5%;
+    padding-top:4.5%;
+    padding-left: 2%;
+}
+    
+    
+    nav ul li a {
+    padding-left: 0.2em;
+    font-size: 0.7em;
+}
+    
+    .landingpic {
+    width:95%;
+    padding-top: 12%;
+    padding-left: 2.2%;
+}
+    
+    .aboutme {
+    padding-top: 25%;
+}
+
+    .abouttext {
+        
+        font-size: .85em;
+    }
+    
+    .aboutpink {
+        text-align: center;
+    }
+
+
+.break{
+    width: 62%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    .aboutpic {
+        display:none;
+    padding-top: 10%;
+        padding-right:5%;
+}
+
+    
+    .aboutill {
+    
+    width:70%;
+    display: block;
+}
+    
+    
+.whattitle {
+    padding-top: 25%;
+}
+
+.break2 {
+    width:43%;
+}
+
+.whatido {
+    
+    text-align: center;
+    padding-bottom: 2.5%; 
+}
+    
+
+.willustration {
+    
+    width:20%;
+    padding-top: 15%;
+}
+    
+
+.design {
+    
+    width:25%;
+    padding-top: 1%;
+}
+
+.workarea {
+    font-size: .65em;
+}
+    
+    
+
+.freelance {
+    
+    width:30%;
+    padding-top: 1%;
+}
+
+
+
+
+.whattext {
+    text-align: center;
+    color: #000;
+    padding-top:15%;
+}
+
+
+.whatinfo {
+    
+    text-align:center;
+    padding-top: 10%;
+   padding-bottom: 35%;
+      /*font-size: .8em;*/
+   padding-right: 7%;
+    padding-left: 7%;
+
+}
+    
+    .worktitle {
+        padding-top:8%;
+}
+
+.break3 {
+    width:24%;
+    margin-bottom:10%;
+}
+
+
+.worktitle2 {
+    
+    text-align: center;
+    padding-bottom: 1%;
+    
+}
+    
+
+
+
+.travelapp {
+    
+    width:85%;
+    padding-left: .5%;
+}
+
+.travelapp2 {
+    
+    width:85%;
+    padding-left: 7.3%;
+    padding-top: 7.5%;
+}
+
+
+.travelinfo {
+    background-color: #F05D5D;
+    height: 25em;
+}
+
+
+.myth1{
+    color:#ffffff;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 1.4em;
+}
+
+.myth2{
+    color:#ffffff;
+    padding-top: 2%;
+        padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.myth3{
+    color:#F9EAE4;
+    padding-top: 2%;
+        padding-left: 10%;
+
+}
+
+
+.myth4{
+    color:#F9EAE4;
+    padding-top: 1%;
+        padding-left: 10%;
+
+}
+
+
+.myth5{
+    color:#F9EAE4;
+    padding-top: 1%;
+    padding-left: 10%;
+
+}
+    
+    #black {
+        padding-right:3%;
+    }
+    
+    
+    
+    .travelapp3 {
+    width:85%;
+    padding-left:1%;
+    padding-top: 7.5%;
+    padding-bottom:7%;
+}
+
+    
+    .contact {
+    padding-top: 12%;
+    padding-right: 1%;
+    padding-left: 1%;
+        line-height: 1.5em;
+}
+
+.helpbr {
+    width:78%;
+}
+    
+    .letterill {
+        width:65%;
+        padding-right: 0;
+}
+    
+    .footer {
+    padding-left:21.5%;
+}
+    
+    .tumblr {
+    width:12%;
+    padding-bottom: 4%;
+    padding-top: 7%;
+    padding-left: 7%;
+}
+
+.tumblr:hover {
+    width: 12.5%;
+}
+
+
+    
+
+    
+    
+    
+    
+ 
+    
+    
+    
+    
+    
+    
+}
