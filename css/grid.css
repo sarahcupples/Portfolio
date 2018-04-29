@@ -850,48 +850,7 @@ p {
     
     
     
-    @media (max-width: 375px) {
     
-    .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-
-        ". aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme aboutme ."
-        
-        ". aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic aboutpic ."
-        
-        "whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle whattitle"
-        
-        ". whatill whatill whatill whatill whatill whatill whatill whatill whatill whatill ."
-        
-        ". desill desill desill desill desill desill desill desill desill desill ."
-        
-        ". freeill freeill freeill freeill freeill freeill freeill freeill freeill freeill ."
-        
-        "worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle worktitle"
-        
-        "travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork travelwork"
-        
-        "travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo travelinfo  travelinfo"
-        
-        "infogr infogr infogr infogr infogr infogr infogr infogr infogr infogr infogr  infogr"
-        
-        "infogtext infogtext infogtext infogtext infogtext infogtext infogtext infogtext infogtext infogtext infogtext  infogtext"
-        
-        "branding branding branding branding branding branding branding branding branding branding  branding branding"
-        
-        "brandtext brandtext brandtext brandtext brandtext brandtext brandtext brandtext brandtext brandtext  brandtext brandtext"
-        
-        "need need need need need need need need need need need need"
-        
-        ". contact contact contact contact contact contact contact contact contact contact ."
-        
-        ". . letter letter letter letter letter letter . . . ."
-        
-        "footer footer footer footer footer footer footer footer footer footer footer footer";
-}
-
  
 
 
