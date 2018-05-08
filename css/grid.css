@@ -3,7 +3,6 @@
     padding:0;
 }
 
-
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -83,7 +82,7 @@ nav.black {
 }
 
 nav ul {
-    font-family: 'Termina', 'Helvetica', sans-serif;
+    font-family: 'Termina', 'Montserrat', sans-serif;
     list-style:none;
     float: right;
     margin:0;
@@ -155,7 +154,7 @@ ul {
 }
 
 h3{
-    font-family: 'Termina', 'Helvetica', sans-serif;
+    font-family: 'Termina', 'Montserrat', sans-serif;
     color: #F05D5D;
     font-size: 1em;
     padding-bottom: 0.1em;
@@ -163,14 +162,14 @@ h3{
 
 h2 {
     
-       font-family: 'Termina', 'Helvetica', sans-serif;
+       font-family: 'Termina', 'Montserrat', sans-serif;
         padding-bottom: 0.5em;
 
 }
 
 p {
     
-    font-family: 'Termina', 'Helvetica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.7em;
     
 }
@@ -456,7 +455,7 @@ p {
 
 
 .btn1 {
-    font-family: 'Termina', 'Helvetica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transform: translate(0%, 0%);
     -ms-transform: translate(0%, 0%);
     background: #F05D5D;
@@ -486,7 +485,7 @@ p {
 
 
 .btn2 {
-    font-family: 'Termina', 'Helvetica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transform: translate(0%, 0%);
     -ms-transform: translate(0%, 0%);
     background: #29B5BE;
@@ -516,7 +515,7 @@ p {
 
 
 .btn3 {
-    font-family: 'Termina', 'Helvetica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transform: translate(0%, 0%);
     -ms-transform: translate(0%, 0%);
     background: #F1D16D;
